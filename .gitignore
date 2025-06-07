@@ -28,6 +28,7 @@ model/
 data/raw/
 data/interim/
 data/temp/
+output/
 *.h5
 *.keras
 *.pkl
