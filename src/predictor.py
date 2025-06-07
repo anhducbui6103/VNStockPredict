@@ -9,7 +9,7 @@ from tensorflow.keras.models import load_model
 
 def predict_lstm(symbol, input_date):
     model_path = f"../model/{symbol}_lstm_model.keras"
-    scaler_path = f"../model/{symbol}_scaler.pkl"
+    scaler_path = f"../model/{symbol}_lstm_scaler.pkl"
     data_path = f"../data/clean/{symbol}.csv"
 
     if not all(os.path.exists(p) for p in [model_path, scaler_path, data_path]):
