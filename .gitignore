@@ -1,39 +1,29 @@
-# 1. Môi trường ảo
+# Virtual environment
 .venv/
 env/
-venv/
+*.egg-info/
+__pycache__/
 
-# 2. File hệ điều hành
-.DS_Store
-Thumbs.db
-
-# 3. File tạm thời của VSCode
+# VSCode settings
 .vscode/
 *.code-workspace
 
-# 4. Notebook checkpoint
+# System files
+.DS_Store
+Thumbs.db
+
+# Data folders
+data/*
+!data/.gitkeep
+
+# Output, model files
+output/*
+!output/.gitkeep
+model/*
+!model/.gitkeep
+
+# Notebook checkpoints
 **/.ipynb_checkpoints/
 
-# 5. File log, cache, build
-*.log
-__pycache__/
-*.py[cod]
-*.egg-info/
-*.eggs/
-dist/
-build/
-
-# 6. Dữ liệu model, dữ liệu sinh ra khi chạy
-model/
-data/raw/
-data/interim/
-data/temp/
-output/
-*.h5
-*.keras
-*.pkl
-*.joblib
-*.npy
-
-# 7. Webdriver nếu sinh ra tự động
+# Browser driver
 browserDrivers/
