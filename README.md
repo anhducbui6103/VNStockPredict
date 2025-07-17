@@ -26,8 +26,11 @@ Tải tại: https://sites.google.com/a/chromium.org/chromedriver/downloads
 Copy vào thư mục browserDrivers/
 
 ### 3. Chạy ứng dụng
+
+```bash
 cd src
 streamlit run app.py
+```
 
 ## 📌 Ghi chú
 Dữ liệu mẫu được cung cấp trong thư mục data/
